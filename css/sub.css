@@ -1,0 +1,770 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+/* 상단 타이틀 */
+.content_area .content_tit {
+    padding: 5.78% 0 0;
+    text-align: center;
+}
+.content_area .content_tit .main_tit {
+    color: #4a4a4a;
+    font-size: 3em;
+    line-height: 1.2em;
+    letter-spacing: -0.05em;
+    font-family: 'NanumSquareRound', 'NanumSquare', sans-serif;
+    word-break: keep-all;
+}
+.content_area .content_tit .line {
+    width: 6.313em;
+    height: 3px;
+    background-color: #e1aebf;
+    margin: 1.07% auto 1.71%;
+}
+.content_area .content_tit .detail_tit {
+    color: #7d7d7d;
+    font-size: 1.125em;
+    line-height: 1em;
+    letter-spacing: -0.05em;
+    font-weight: 300;
+}
+.content_area .content_tit .detail_tit>a {
+    color: #7d7d7d;
+}
+.content_area .content_tit .detail_tit .current {
+    color: #4a4a4a;
+    font-weight: 400;
+}
+
+/* 텍스트 */
+.content_area .content_main .sub_section {
+    font-family: 'NanumSquareRound', 'NanumSquare', sans-serif;
+}
+.content_area .content_main .sub_section>article {
+    padding-bottom: 6.14%;
+}
+.content_area .content_main .sub_section .big_tit {
+    color: #4b4b4b;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 600;
+    margin: 5.5% 0 2.42%;
+}
+
+/* 서브 카테고리 탭 */
+.content_area .content_main .sub_section .content_type {
+	width: 100%;
+    height: auto;
+    margin-top: 4.35%;
+}
+.content_area .content_main .sub_section .content_type>li {
+    height: 2.2em;
+    line-height: 2.133em;
+    background-color: #e0afc1;
+    border: 1px solid #e0afc1;
+    color: #ffffff;
+    font-size: 1.875em;
+    font-weight: 300;
+    float: left;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 0.21% 0.21%;
+}
+.content_area .content_main .sub_section .content_type>li.active {
+    background-color: #ffffff;
+    color: #868585;
+}
+.content_area .content_main .sub_section .content_type.four_type>li {
+    width: 24.84%;
+}
+.content_area .content_main .sub_section .content_type.four_type>li:nth-child(4n + 1) {
+    margin-left: 0;
+}
+.content_area .content_main .sub_section .content_type.two_type>li {
+    width: 49.89%;
+}
+.content_area .content_main .sub_section .content_type.two_type>li:nth-child(2n + 1) {
+    margin-left: 0;
+}
+.content_area .content_main .sub_section .content_type>li>a {
+    display: block;
+    color: #ffffff;
+}
+.content_area .content_main .sub_section .content_type>li.active>a {
+    color: #868585;
+}
+
+/* 서브 내용 */
+.content_area .content_main .sub_con {
+    width: 94%;
+    height: auto;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.content_area .content_main .sub_con .sub_con_area {
+    width: 100%;
+    height: auto;
+    margin-top: 7.35%;
+}
+.content_area .content_main .sub_con .sub_con_area:first-child {
+    margin-top: 4.35%;
+    padding-top: 3%;
+}
+.content_area .content_main .sub_con .sub_con_area img {
+    width: 100%;
+    height: auto;
+}
+.content_area .content_main .sub_con .sub_con_area .big {
+    color: #4b4b4b;
+    font-size: 1.875em;
+    line-height: 1.2em;
+    margin-top: 2.21%;
+}
+.content_area .content_main .sub_con .sub_con_area .medium {
+    color: #4b4b4b;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-top: 2.78%;
+}
+.content_area .content_main .sub_con .sub_con_area .small {
+    color: #4b4b4b;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 2.35%;
+}
+.content_area .content_main .sub_con .sub_con_area .text_indent,
+.content_area .content_main .sub_con .sub_con_area .text_list {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 0.125em;
+}
+.content_area .content_main .sub_con .sub_con_area .sub_con_item {
+    width: 47.55%;
+    height: auto;
+    max-width: calc(700px  - 2.25%);
+    display: inline-block;
+    text-align: left;
+}
+.content_area .content_main .sub_con .sub_con_area .sub_con_item:nth-child(2n + 1) {
+    margin-right: 2.25%;
+}
+.content_area .content_main .sub_con .sub_con_area .sub_con_item:nth-child(2n) {
+    margin-left: 2.25%;
+}
+.content_area .content_main .sub_con .sub_con_left {
+    text-align: left;
+}
+.content_area .content_main .sub_con .sub_con_left .sub_con_item {
+    vertical-align: top;
+}
+.content_area .content_main .sub_con .sub_con_left .sub_con_img {
+    width: 51.55%;
+    max-width: 100%;
+    margin-left: -4%;
+}
+.content_area .content_main .sub_con .sub_con_right {
+    text-align: right;
+}
+.content_area .content_main .sub_con .sub_con_right .sub_con_item {
+    vertical-align: middle;
+}
+.content_area .content_main .sub_con .sub_con_right .sub_con_img {
+    width: 51.55%;
+    max-width: 100%;
+    margin-right: -4%;
+}
+.content_area .content_main .sub_con .sub_con_center {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    margin: 7.35% auto 0;
+}
+.content_area .content_main .sub_con .sub_con_center .sub_con_item {
+    vertical-align: top;
+}
+
+/* 서브 테이블 */
+.content_area .content_main .sub_con .sub_con_table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1.42%;
+}
+.content_area .content_main .sub_con .sub_con_table .sub_con_td {
+    flex: 1;
+    margin: 0 1px;
+}
+.content_area .content_main .sub_con .sub_con_table .sub_con_td .tit {
+    width: 100%;
+    height: 2.45em;
+    line-height: 2.35em;
+    background-color: #f6d4e1;
+    border: 1px solid #e0afc1;
+    color: #4d4d4d;
+    font-size: 1.25em;
+    text-align: center;
+}
+.content_area .content_main .sub_con .sub_con_table .sub_con_td .con {
+    width: 100%;
+    height: calc(100% - 3.188em);
+    background-color: #ffffff;
+    border: 1px solid #e0afc1;
+    margin-top: 2px;
+    padding: 4.72% 3%;
+}
+.content_area .content_main .sub_con .sub_con_table2 {
+    width: 100%;
+    height: auto;
+    margin-top: 1.42%;
+    table-layout: fixed;
+    border-top: 1px solid #b2b2b2;
+    border-left: 1px solid #b2b2b2;
+}
+.content_area .content_main .sub_con .sub_con_table2 tr th {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    line-height: 1.5em !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3% 1%;
+}
+.content_area .content_main .sub_con .sub_con_table2 tr td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    line-height: 1.75em !important;
+    text-align: left;
+    vertical-align: middle;
+    padding: 3.35% 1.92%;
+}
+
+@media screen and (max-width: 1600px) {
+    .content_area .content_main .sub_con .sub_con_area .sub_con_item {
+        width: 47.45%;
+    }
+    .content_area .content_main .sub_con .sub_con_left .sub_con_img,
+    .content_area .content_main .sub_con .sub_con_right .sub_con_img {
+        width: 51.45%;
+    }
+}
+    
+@media screen and (max-width: 900px) {
+    .content_area .content_tit {
+        padding: 6.78% 0 0;
+    }
+    .content_area .content_tit .line {
+        margin: 2.07% auto 2.71%;
+    }
+    .content_area .content_main .sub_section>article {
+        padding-bottom: 7.14%;
+    }
+    .content_area .content_main .sub_section .big_tit {
+        margin: 6.5% 0 3.42%;
+    }
+    .content_area .content_main .sub_section .content_type {
+        margin-top: 5.35%;
+    }
+    .content_area .content_main .sub_section .content_type>li {
+        margin: 0 0 0.42% 0.42%;
+    }
+    .content_area .content_main .sub_section .content_type.four_type>li {
+        width: 49.79%;
+    }
+    .content_area .content_main .sub_section .content_type.four_type>li:nth-child(4n + 1) {
+        margin-left: 0.42%;
+    }
+    .content_area .content_main .sub_section .content_type.four_type>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .content_area .content_main .sub_section .content_type.two_type>li {
+        width: 49.79%;
+    }
+    .content_area .content_main .sub_con .sub_con_area {
+        margin-top: 8.35%;
+    }
+    .content_area .content_main .sub_con .sub_con_area:first-child {
+        margin-top: 5.35%;
+    }
+    .content_area .content_main .sub_con .sub_con_area .sub_con_item {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 2.25%;
+    }
+    .content_area .content_main .sub_con .sub_con_area .sub_con_item:nth-child(2n + 1) {
+        margin-right: 0%;
+    }
+    .content_area .content_main .sub_con .sub_con_area .sub_con_item:nth-child(2n) {
+        margin-left: 0;
+    }
+    .content_area .content_main .sub_con .sub_con_left .sub_con_img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .content_area .content_main .sub_con .sub_con_right .sub_con_img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .content_area .content_main .sub_con .sub_con_center {
+        margin: 8.35% auto 0;
+    }
+    .content_area .content_main .sub_con .sub_con_table {
+        display: block;
+        margin-top: 2.42%;
+    }
+    .content_area .content_main .sub_con .sub_con_table .sub_con_td {
+        margin: 2px 0 0;
+    }
+    .content_area .content_main .sub_con .sub_con_table .sub_con_td .con {
+        height: auto;
+    }
+    .content_area .content_main .sub_con .sub_con_table2 {
+        margin-top: 2.42%;
+    }
+    .content_area .content_main .sub_con .sub_con_table2 col.th00 {
+        width: 35%;
+    }
+    .content_area .content_main .sub_con .sub_con_table2 col.th01 {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_area .content_tit {
+        padding: 7.78% 0 0;
+    }
+    .content_area .content_tit .line {
+        margin: 3.07% auto 3.71%;
+    }
+    .content_area .content_main .sub_section>article {
+        padding-bottom: 8.14%;
+    }
+    .content_area .content_main .sub_section .big_tit {
+        margin: 7.5% 0 4.42%;
+    }
+    .content_area .content_main .sub_section .content_type {
+        margin-top: 6.35%;
+    }
+    .content_area .content_main .sub_section .content_type>li {
+        font-size: 1.625em;
+    }
+    .content_area .content_main .sub_section .content_type.two_type>li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .content_area .content_main .sub_section .content_type.two_type>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .content_area .content_main .sub_con .sub_con_area {
+        margin-top: 9.35%;
+    }
+    .content_area .content_main .sub_con .sub_con_area:first-child {
+        margin-top: 6.35%;
+    }
+    .content_area .content_main .sub_con .sub_con_area .big {
+        margin-top: 3.21%;
+    }
+    .content_area .content_main .sub_con .sub_con_area .medium {
+        margin-top: 3.78%;
+        word-break: break-all;
+    }
+    .content_area .content_main .sub_con .sub_con_area .small {
+        margin-top: 3.35%;
+        word-break: break-all;
+    }
+    .content_area .content_main .sub_con .sub_con_area .text_indent,
+    .content_area .content_main .sub_con .sub_con_area .text_list {
+        margin-bottom: 0;
+    }
+    .content_area .content_main .sub_con .sub_con_area .sub_con_item {
+        margin-bottom: 3.25%;
+    }
+    .content_area .content_main .sub_con .sub_con_center {
+        margin: 9.35% auto 0;
+    }
+}
+
+/************************************************
+
+					directions
+
+*************************************************/
+.content_main .directions_area img,
+.content_main .directions_area iframe {
+    width: 100%;
+    height: 21.313em;
+    margin-bottom: 2.21%;
+}
+
+/************************************************
+
+					introduction
+
+*************************************************/
+.content_main .introduction_area img {
+    width: 100%;
+    height: auto;
+}
+
+/************************************************
+
+					consultation_hours
+
+*************************************************/
+.content_main .consultation_hours_area .ch_guide {
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #aeaeae;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 1% 0;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_tit {
+    width: 43.35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_tit img {
+    width: 13.5%;
+    height: auto;
+    margin-right: 8.23%;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_tit .ch_guide_tit_txt {
+    display: inline-block;
+    vertical-align: middle;
+    color: #808080;
+    font-size: 1.625em;
+    line-height: 1.846em;
+    text-align: left;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_tit .ch_guide_tit_txt span {
+    color: #d6a4b7;
+    font-size: 1.846em;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con {
+    width: 56.35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item {
+    width: 100%;
+    height: auto;
+    padding: 3.27% 0;
+    border-top: 1px solid #d4d4d4;
+    color: #808080;
+    font-size: 1.125em;
+    line-height: 1.667em;
+    font-weight: 600;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item:first-child {
+    border-top: none;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_tit {
+    width: 14.611em;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 2.444em;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_tit span {
+    color: #db8daa;
+}
+.content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_con {
+    width: calc(99.4% - 14.611em);
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.content_main .consultation_hours_area .ch_note {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+.content_main .consultation_hours_area .ch_note .ch_note_tit {
+    width: 12.692em;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    color: #808080;
+    font-size: 1.625em;
+    line-height: 1em;
+    margin-top: 0.231em;
+}
+.content_main .consultation_hours_area .ch_note .ch_note_con {
+    width: calc(99.7% - 20.625em);
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.content_main .consultation_hours_area .ch_note .ch_note_con .text_list {
+    color: #808080;
+}
+
+@media screen and (max-width: 1400px) {
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con {
+        width: 56.25%;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_con {
+        width: calc(99.3% - 14.611em);
+    }
+    .content_main .consultation_hours_area .ch_note .ch_note_con {
+        width: calc(99.6% - 20.625em);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_con {
+        width: calc(99.2% - 14.611em);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .consultation_hours_area .ch_guide {
+        padding: 2% 0;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_tit {
+        width: 100%;
+        margin: 7.23% 0;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_tit img {
+        width: 12.5%;
+        margin-right: 7.23%;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con {
+        width: 100%;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item {
+        text-align: center;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item:first-child {
+        border-top: 1px solid #d4d4d4;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_tit {
+        width: 12em;
+        padding-left: 0;
+        text-align: left;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_con {
+        width: auto;
+    }
+    .content_main .consultation_hours_area .ch_note {
+        margin-top: 4%;
+    }
+    .content_main .consultation_hours_area .ch_note .ch_note_tit {
+        width: 100%;
+        margin-bottom: 0.462em;
+    }
+    .content_main .consultation_hours_area .ch_note .ch_note_con {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .consultation_hours_area .ch_guide .ch_guide_tit img {
+        display: none;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_tit .ch_guide_tit_txt {
+        text-align: center;
+    }
+    .content_main .consultation_hours_area .ch_guide .ch_guide_con .ch_guide_con_item .ch_guide_con_tit {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/************************************************
+
+					treatment_guide
+
+*************************************************/
+.content_main .treatment_guide_area .tg_guide>li {
+    width: 23.6%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 1.42% 1.42%;
+}
+.content_main .treatment_guide_area .tg_guide>li:nth-child(4n + 1) {
+    margin-left: 0;
+}
+.content_main .treatment_guide_area .tg_guide>li img {
+    width: 100%;
+    height: auto;
+}
+.content_main .treatment_guide_area .tg_guide>li .tg_guide_tit {
+    color: #4b4b4b;
+    font-size: 1.125em;
+    line-height: 1.667em;
+    margin-top: 3.93%;
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .treatment_guide_area .tg_guide>li {
+        width: 48.89%;
+    }
+    .content_main .treatment_guide_area .tg_guide>li:nth-child(4n + 1) {
+        margin-left: 1.42%;
+    }
+    .content_main .treatment_guide_area .tg_guide>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .treatment_guide_area .tg_guide>li {
+        width: 100%;
+        margin: 0 0 2.84% 0;
+    }
+    .content_main .treatment_guide_area .tg_guide>li:nth-child(4n + 1) {
+        margin-left: 0;
+    }
+}
+
+/************************************************
+
+					checkup
+
+*************************************************/
+.content_main .checkup_area .sub_con .sub_con_right .sub_con_txt .text_list {
+    width: calc(49.6% - 2em);
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0.563em;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+    .content_main .checkup_area .sub_con .sub_con_right .sub_con_txt .text_list {
+        width: calc(49.5% - 2em);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .checkup_area .sub_con .sub_con_right .sub_con_txt .text_list {
+        width: calc(100% - 1em);
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+}
+
+/************************************************
+
+					vaccination
+
+*************************************************/
+.content_main .vaccination_area .sub_con .sub_con_left .sub_con_txt .text_indent {
+    margin-bottom: 0.563em;
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .vaccination_area .sub_con .sub_con_left .sub_con_txt .text_indent {
+        margin-bottom: 0;
+    }
+}
+
+/************************************************
+
+					vaginitis
+
+*************************************************/
+.content_main .vaginitis_area .sub_con .sub_con_center .sub_con_txt .medium {
+    margin-top: 7.71%;
+}
+.content_main .vaginitis_area .sub_con .sub_con_center .sub_con_txt .small {
+    margin-bottom: 10.71%;
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .vaginitis_area .sub_con .sub_con_center .sub_con_txt .medium {
+        margin-top: 3.85%;
+    }
+    .content_main .vaginitis_area .sub_con .sub_con_center .sub_con_txt .small {
+        margin-bottom: 5.35%;
+    }
+}
+
+/************************************************
+
+					loop_contraception_method
+
+*************************************************/
+.content_main .loop_contraception_method_area .sub_con .sub_con_center .medium {
+    margin-top: 1.39%;
+}
+
+/************************************************
+
+					mirena
+
+*************************************************/
+.content_main .mirena_area .sub_con .sub_con_center {
+    margin-top: -4.5%;
+}
+
+@media screen and (max-width: 1600px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: -8.5%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: -12.5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: -16.5%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: -20.5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: 8.35%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .mirena_area .sub_con .sub_con_center {
+        margin-top: 9.35%;
+    }
+}
+
+/************************************************
+
+					metrorrhagia
+
+*************************************************/
+.content_main .metrorrhagia_area .sub_con .sub_con_center .sub_con_txt .medium {
+    margin-top: 7.71%;
+}
+.content_main .metrorrhagia_area .sub_con .sub_con_center .sub_con_txt .small {
+    margin-bottom: 10.71%;
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .metrorrhagia_area .sub_con .sub_con_center .sub_con_txt .medium {
+        margin-top: 3.85%;
+    }
+    .content_main .metrorrhagia_area .sub_con .sub_con_center .sub_con_txt .small {
+        margin-bottom: 5.35%;
+    }
+}
+
